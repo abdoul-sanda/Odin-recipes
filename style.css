@@ -1,7 +1,3 @@
-
-
-
-
 body {
     background-color: #303030;
     color: antiquewhite;
@@ -18,13 +14,16 @@ a {
     font-size: 24px;
     margin: 20;
 }
+a:hover {
+    color: #ff9019;
+}
 
 .haut {
     display: flex;
     width: 100%;
-    height: 100px;
+    height: 80px;
     margin: 20px auto;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
@@ -36,11 +35,11 @@ a {
 
 .rec {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
     margin: 40px auto;
-    width: 80%;
-    height: 200px;
+    width: 90%;
+    height: 300px;
 
 
 }
@@ -112,6 +111,16 @@ p {
 
 }
 
+.bb:hover {
+    transform: translateY(-10px);
+}
+.cc:hover {
+    transform: translateY(-10px);
+}
+.dd:hover {
+    transform: translateY(-10px);
+}
+
 
 
 li {
@@ -128,7 +137,7 @@ h4 {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 24px ;
+    font-size: 24px;
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: bold;
@@ -136,3 +145,123 @@ h4 {
 
 }
 
+h5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    color: cadetblue;
+}
+
+div {
+    display: flex;
+}
+
+.poulet {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    height: 300px;
+
+
+    .p {
+        display: flex;
+        width: 90%;
+        height: 250px;
+        background: url(recipes/images/poul.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 20px;
+
+
+    }
+}
+
+.burger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    height: 300px;
+
+
+    .b {
+        display: flex;
+        width: 90%;
+        height: 250px;
+        background: url(recipes/images/bug.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 20px;
+
+    }
+}
+
+.salade {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    height: 300px;
+
+    .s {
+        display: flex;
+        width: 90%;
+        height: 250px;
+        background: url(recipes/images/sal.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 20px;
+
+    }
+}
+
+.p:hover {
+    transform: translateY(-10px);
+}
+
+.b:hover {
+    transform: translateY(-10px);
+}
+
+.s:hover {
+    transform: translateY(-10px);
+}
+
+
+footer{
+    margin-top: 180px auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    .ico{
+        display: flex;
+        align-items: center;
+        height: 70px;
+        width: 30%;
+        gap: 30px;
+        .ln{
+            color: rgb(10, 91, 211);
+            
+        }
+        .what{
+            color: green;
+        }
+
+    }
+
+}
