@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: #303030;
     color: antiquewhite;
@@ -7,29 +12,54 @@ a {
 
     text-decoration: none;
     color: aliceblue;
-    font-family: "DM Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: normal;
+    font-family: "Mali", cursive;
+    font-weight: light;
     font-style: normal;
     font-size: 24px;
     margin: 20;
 }
-a:hover {
-    color: #ff9019;
+
+
+a :hover {
+    color: #915b1e;
 }
 
-.haut {
+.navbar {
+    background-color: rgb(69, 68, 68);
     display: flex;
-    width: 100%;
+    width: 98%;
     height: 80px;
-    margin: 20px auto;
-    justify-content: space-around;
+    padding: 20px auto;
+    margin-bottom: 40px;
+    padding-left: 20px;
+    justify-content: space-between;
     align-items: center;
-    font-family: "DM Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: bold;
+    font-family: "Mali", cursive;
+    font-weight: 300;
     font-style: normal;
+    font-size: 24px;
 
+    a {
+
+        text-decoration: none;
+        color: aliceblue;
+        font-family: "Mali", cursive;
+        font-weight: light;
+        font-style: normal;
+        font-size: 24px;
+        margin: 20;
+    }
+
+    div {
+        height: 40px;
+        width: 40%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
 
 }
 
@@ -64,6 +94,7 @@ a:hover {
 }
 
 p {
+    padding: 12px;
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: normal;
@@ -114,14 +145,19 @@ p {
 .bb:hover {
     transform: translateY(-10px);
 }
+
 .cc:hover {
     transform: translateY(-10px);
 }
+
 .dd:hover {
     transform: translateY(-10px);
 }
 
+ul {
+    margin-left: 28px;
 
+}
 
 li {
     margin: 10px auto;
@@ -145,7 +181,7 @@ h4 {
 
 }
 
-h5{
+h5 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -240,7 +276,7 @@ div {
 }
 
 
-footer{
+footer {
     margin-top: 180px auto;
     padding: 0;
     display: flex;
@@ -248,17 +284,20 @@ footer{
     align-items: center;
     height: 80px;
     width: 100%;
-    .ico{
+
+    .ico {
         display: flex;
         align-items: center;
         height: 70px;
         width: 30%;
         gap: 30px;
-        .ln{
+
+        .ln {
             color: rgb(10, 91, 211);
-            
+
         }
-        .what{
+
+        .what {
             color: green;
         }
 
