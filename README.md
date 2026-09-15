@@ -19,4 +19,3 @@ Pour chacun de ses plats j'ai mis
 - les ingrédients 
 - le processus de préparation de celui-ci 
   
-### Merci 
